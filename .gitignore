@@ -2,6 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc 
+*.pyo 
+*.pyd 
 
 # C extensions
 *.so
@@ -32,6 +35,11 @@ MANIFEST
 *.manifest
 *.spec
 
+# IDE
+.vscode/
+.idea/
+
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -50,6 +58,13 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+
+# Data 
+data/raw/
+data/processed
+
+# Logs
+*.log 
 
 # Translations
 *.mo
@@ -216,3 +231,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# OS
+.DS_Store
+Thumbs.db 
+
